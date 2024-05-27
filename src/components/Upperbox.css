@@ -1,0 +1,73 @@
+.CCheck {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.Checkbox {
+    margin-left: auto;
+    margin-bottom: 10px;
+    text-align: right; 
+}
+
+.Checkbox > span { 
+    color: grey;
+    font-size: 12px;
+    vertical-align: 2px;
+}
+
+.Upper > h5 {
+    color: grey;
+}
+
+.Box1 { 
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.Id {
+    display: flex;
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+.Pw {
+    display: flex;
+    border-bottom: 2px solid lightgrey;
+    padding: 10px 0 ;
+}
+
+.PwRe {
+    display: flex;
+    padding-top: 10px;
+}
+
+.user, .lock {
+    font-size: 23px;
+    color: lightgray;
+    margin: auto 15px;
+}
+
+.eye {
+    font-size: 18px;
+    margin: auto 15px;
+}
+
+.Id > input , .Pw > input , .PwRe > input { 
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    margin: auto;
+    border: none;
+}
+
+.Id > h4 {
+    height: 30px;
+    margin: 0 15px;
+    padding-top: 3px;
+    color: gray;
+}
+
+.Id > input:focus, .PwRe > input:focus, .Pw > input:focus {
+    outline: none;
+}
